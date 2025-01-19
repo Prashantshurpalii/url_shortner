@@ -123,18 +123,3 @@ This project is a FastAPI-based URL shortener service with the following feature
 ├── README.md               # Project documentation
 ```
 
----
-
-## Example Usage
-
-### Shortening a URL
-1. Use a tool like Postman or `curl` to send a `POST` request to `/shorten`.
-2. Copy the `short_url` from the response.
-
-### Accessing a Shortened URL
-- Visit the `short_url` in your browser. If password exists, enter the password when prompted.
-
-### Viewing Analytics
-- Visit `/analytics/{short_url}`. If password exists, enter the password.
-
-
